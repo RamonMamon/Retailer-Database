@@ -1,0 +1,76 @@
+.header{
+    padding-top: 50px;
+}
+
+.body-container{
+    position: relative;
+    padding-top: 50px;
+    left: 20%;
+}
+
+.tab-container{
+    position: relative;
+    width: 25%;
+    height: 25;
+}
+
+.content-container{
+    position: relative;
+    width: 70%;
+}
+
+
+/* Home */
+
+.map-container{
+    position:relative;
+    padding: 10px;
+    left: 20%;
+}
+
+.map-details{
+    position: relative;
+    padding: 10px;
+    left: 40%;
+    width: 250px;
+    height: 250px;
+}
+
+.see-details-button{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+
+}
+
+/* Search  */
+.filter-container{
+    position: relative;
+    width: 70%;
+    left: 20%;
+    padding: 10px
+
+}
+
+.search-button-container{
+    padding: 5px;
+    position: relative;
+    left: 3%;
+}
+
+.search-container{
+    position: relative;
+    padding: 10px;
+    left: 20%;
+    width: 70%;
+    height: 500px;
+}
+
+/* .filter-tag{
+    position: relative;
+} */
+
+/* .filter-item{
+    position: absolute;
+    left: 0% ;
+} */
