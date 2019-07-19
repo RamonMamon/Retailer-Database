@@ -1,0 +1,23 @@
+<!-- {% extends 'index.html' %}
+{% load static %} -->
+
+{% block map %}
+<!-- Add the map overview -->
+<div>
+  <img src="{% static '/assets/google_maps.jpg' %}" width="300" height="300">
+</div>
+
+{% endblock %}
+<!-- Add the Map information -->
+
+{% block mapinfo %}
+<div>
+  <ul>
+    <li>Name:</li>
+    <li>Address:</li>
+    <li>W/R:</li>
+    <li>Volume Class</li>
+  </ul>
+  <button>See profile</button>
+</div>
+{% endblock %}
